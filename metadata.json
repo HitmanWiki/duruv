@@ -1,0 +1,6 @@
+{
+  "name": "The Gram Bull Durov",
+  "description": "The definitive digital manifesto for the $DUROV movement on TON Chain, celebrating the vision of Pavel Durov and bringing back the on-chain bull market.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

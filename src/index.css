@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .gold-shimmer {
+    background: linear-gradient(90deg, #0098ea, #00f0ff, #0098ea, #00f0ff, #0098ea);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 4s linear infinite;
+  }
+
+  .text-gold {
+    color: #00f0ff;
+  }
+
+  .bg-gold {
+    background-color: #0098ea;
+  }
+
+  .border-gold {
+    border-color: #00f0ff33;
+  }
+
+  .ticker-scroll {
+    animation: ticker-scroll 40s linear infinite;
+  }
+
+  .terminal-pulse {
+    animation: terminal-pulse 2s ease-in-out infinite;
+  }
+
+  .gold-rule {
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, #00f0ff 20%, #0098ea 80%, transparent 100%);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+
+@keyframes terminal-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00f0ff40;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff80;
+}
+
