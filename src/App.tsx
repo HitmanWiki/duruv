@@ -66,7 +66,7 @@ export default function App() {
         {/* Parallax Hero Image Backing */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/white_bull_hero_1783355348279.jfif"
+            src="/assets/images/white_bull_hero_1783355348279.jfif"
             alt="The White Bull Crystalline Concept"
             className="w-full h-full object-cover object-center scale-105 filter brightness-[0.4] contrast-[1.05]"
             referrerPolicy="no-referrer"
@@ -264,7 +264,7 @@ export default function App() {
               <div className="relative w-full max-w-sm md:max-w-md mx-auto overflow-hidden rounded-md border border-[#da83ff]/20 bg-[#08080c] p-1.5 shadow-[0_0_30px_rgba(218,131,255,0.15)]">
                 <div className="absolute -inset-4 rounded-sm bg-[#da83ff]/10 blur-3xl pointer-events-none z-0"></div>
                 <img
-                  src="/src/assets/images/ethereum_chest_1783355363793.jfif"
+                  src="/assets/images/ethereum_chest_1783355363793.jfif"
                   alt="Sovereign Ethereum Chest of Crystalline Wealth"
                   className="w-full object-cover rounded-sm relative z-10 border border-[#da83ff]/10"
                   style={{ maxHeight: "380px" }}
@@ -360,7 +360,7 @@ export default function App() {
               <div className="relative w-full max-w-sm overflow-hidden rounded-md border border-[#da83ff]/30 bg-[#08080c] p-2.5 shadow-[0_0_40px_rgba(218,131,255,0.2)] group">
                 <div className="absolute -inset-4 rounded-sm bg-[#da83ff]/10 blur-3xl pointer-events-none z-0 group-hover:bg-[#da83ff]/20 transition-all duration-500"></div>
                 <img
-                  src="/src/assets/images/vitalik_cyber_avatar_1783355798172.jfif"
+                  src="/assets/images/vitalik_cyber_avatar_1783355798172.jfif"
                   alt="Vitalik Buterin Cyber Avatar"
                   className="w-full object-cover rounded-sm relative z-10 border border-[#da83ff]/20 filter brightness-[0.85] hover:brightness-[1] transition-all duration-500"
                   style={{ maxHeight: "390px" }}

@@ -73,7 +73,7 @@ export default function SovereignSection() {
           className="relative md:w-1/2 min-h-[52vw] md:min-h-0 max-h-[65vw] md:max-h-none border-l border-[#da83ff]/10"
         >
           <img
-            src="/src/assets/images/vitalik_riding_bull_1783355814919.jfif"
+            src="/assets/images/vitalik_riding_bull_1783355814919.jfif"
             alt="Vitalik Buterin riding the White Bull - Sovereign Conviction"
             className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.7] contrast-[1.05]"
             loading="lazy"

@@ -27,7 +27,7 @@ export default function Header() {
             <div className="relative">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-[#8b5cf6] to-[#da83ff] opacity-40 blur-sm"></div>
               <img
-                src="/src/assets/images/white_bull_logo_1783355332688.jfif"
+                src="/assets/images/white_bull_logo_1783355332688.jfif"
                 alt="THE WHITE BULL Logo"
                 className="relative h-10 w-10 md:h-12 md:w-12 rounded-full object-cover border border-[#da83ff]/30"
               />
