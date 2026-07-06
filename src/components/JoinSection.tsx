@@ -8,9 +8,9 @@ export default function JoinSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="relative py-24 md:py-36 bg-[#07070a] overflow-hidden border-t border-[#00f0ff]/10">
+    <section ref={ref} className="relative py-24 md:py-36 bg-[#07070a] overflow-hidden border-t border-[#da83ff]/10">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#00f0ff]/3 blur-[130px]"></div>
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#da83ff]/3 blur-[130px]"></div>
       </div>
 
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
@@ -19,7 +19,7 @@ export default function JoinSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1 }}
         >
-          <p className="font-mono text-[#00f0ff]/50 text-xs tracking-[0.5em] uppercase mb-6">
+          <p className="font-mono text-[#da83ff]/50 text-xs tracking-[0.5em] uppercase mb-6">
             COMMUNITY & ALIGNMENT
           </p>
           <h2
@@ -40,7 +40,7 @@ export default function JoinSection() {
             This is not just another token listing.
           </p>
           <p className="text-base md:text-xl text-[#F1F1F1]/75 leading-relaxed font-semibold">
-            This is a sovereign movement to restore pure, absolute conviction to the TON Chain.
+            This is a sovereign movement to restore pure, absolute conviction to the Ethereum Chain.
           </p>
         </motion.div>
 
@@ -51,18 +51,18 @@ export default function JoinSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-2xl mx-auto"
         >
           <a
-            href="https://pump.fun/coin/CuGJf6cfDfMh4UxVgNJ5KFQ6v8Wv3qrqop6cFKsGpump"
+            href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex-1 px-8 py-4 bg-[#0098ea] text-[#050505] font-black text-sm tracking-[0.15em] uppercase hover:bg-[#00f0ff] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm border border-[#00f0ff]/40 shadow-[0_0_15px_rgba(0,240,255,0.15)]"
+            className="w-full sm:w-auto flex-1 px-8 py-4 bg-[#8b5cf6] text-[#050505] font-black text-sm tracking-[0.15em] uppercase hover:bg-[#da83ff] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm border border-[#da83ff]/40 shadow-[0_0_15px_rgba(218,131,255,0.15)]"
           >
-            <Flame className="w-4 h-4 shrink-0" /> BUY $DUROV
+            <Flame className="w-4 h-4 shrink-0" /> BUY $VITALIK
           </a>
           <a
             href="https://t.me/thetopbull"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex-1 px-8 py-4 border-2 border-[#00f0ff]/40 text-[#00f0ff] font-bold text-sm tracking-[0.15em] uppercase hover:bg-[#00f0ff]/10 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm"
+            className="w-full sm:w-auto flex-1 px-8 py-4 border-2 border-[#da83ff]/40 text-[#da83ff] font-bold text-sm tracking-[0.15em] uppercase hover:bg-[#da83ff]/10 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm"
           >
             <Send className="w-4 h-4 shrink-0" /> TELEGRAM
           </a>
@@ -70,7 +70,7 @@ export default function JoinSection() {
             href="https://x.com/TheTopBull_tate"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex-1 px-8 py-4 border-2 border-[#00f0ff]/40 text-[#00f0ff] font-bold text-sm tracking-[0.15em] uppercase hover:bg-[#00f0ff]/10 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm"
+            className="w-full sm:w-auto flex-1 px-8 py-4 border-2 border-[#da83ff]/40 text-[#da83ff] font-bold text-sm tracking-[0.15em] uppercase hover:bg-[#da83ff]/10 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm"
           >
             <Twitter className="w-4 h-4 shrink-0" /> TWITTER (X)
           </a>

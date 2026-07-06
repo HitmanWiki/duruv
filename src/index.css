@@ -9,7 +9,7 @@
 
 @layer utilities {
   .gold-shimmer {
-    background: linear-gradient(90deg, #0098ea, #00f0ff, #0098ea, #00f0ff, #0098ea);
+    background: linear-gradient(90deg, #8b5cf6, #da83ff, #8b5cf6, #da83ff, #8b5cf6);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -18,15 +18,15 @@
   }
 
   .text-gold {
-    color: #00f0ff;
+    color: #da83ff;
   }
 
   .bg-gold {
-    background-color: #0098ea;
+    background-color: #8b5cf6;
   }
 
   .border-gold {
-    border-color: #00f0ff33;
+    border-color: #da83ff33;
   }
 
   .ticker-scroll {
@@ -39,7 +39,7 @@
 
   .gold-rule {
     height: 1px;
-    background: linear-gradient(90deg, transparent 0%, #00f0ff 20%, #0098ea 80%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, #da83ff 20%, #8b5cf6 80%, transparent 100%);
   }
 }
 
@@ -79,11 +79,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00f0ff40;
+  background: #da83ff40;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00f0ff80;
+  background: #da83ff80;
 }
 

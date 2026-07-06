@@ -55,7 +55,7 @@ export default function Particles() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(0, 240, 255, ${p.opacity})`;
+        ctx.fillStyle = `rgba(218, 131, 255, ${p.opacity})`;
         ctx.fill();
       });
       animationId = requestAnimationFrame(animate);

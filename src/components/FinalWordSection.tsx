@@ -13,7 +13,7 @@ export default function FinalWordSection() {
       {/* Visual background */}
       <div className="absolute inset-0 z-0 bg-[#050505]">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="w-[700px] h-[500px] rounded-full bg-[#0098ea]/5 blur-[150px]"></div>
+          <div className="w-[700px] h-[500px] rounded-full bg-[#8b5cf6]/5 blur-[150px]"></div>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export default function FinalWordSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
         >
-          <p className="font-mono text-[#00f0ff]/50 text-xs tracking-[0.5em] uppercase mb-7 md:mb-10 font-semibold">
+          <p className="font-mono text-[#da83ff]/50 text-xs tracking-[0.5em] uppercase mb-7 md:mb-10 font-semibold">
             THE FINAL DECLARATION
           </p>
           <h2
@@ -55,14 +55,14 @@ export default function FinalWordSection() {
           transition={{ duration: 1, delay: 0.5 }}
           className="space-y-2 mb-16"
         >
-          <p className="font-mono text-[#00f0ff]/80 text-base md:text-lg tracking-wide uppercase font-semibold">
-            65% IN DUROV'S WALLET.
+          <p className="font-mono text-[#da83ff]/80 text-base md:text-lg tracking-wide uppercase font-semibold">
+            COMMUNITY TAKEOVER (CTO).
           </p>
           <p className="font-mono text-[#F1F1F1]/30 text-base md:text-lg tracking-wide uppercase">
-            ONE LEGENDARY NARRATIVE.
+            BUILDS FORWARD. NO MATTER WHAT.
           </p>
           <p className="font-mono text-[#F1F1F1]/30 text-base md:text-lg tracking-wide uppercase">
-            ONE UNSTOPPABLE MISSION ON TON.
+            ONE UNSTOPPABLE MISSION ON ETHEREUM.
           </p>
         </motion.div>
 
@@ -73,19 +73,19 @@ export default function FinalWordSection() {
           className="space-y-8"
         >
           <p
-            className="font-black text-[#00f0ff] tracking-[-0.03em] uppercase"
+            className="font-black text-[#da83ff] tracking-[-0.03em] uppercase"
             style={{ fontSize: "clamp(1.5rem, 3.5vw, 3rem)" }}
           >
             BRING THE BULL MARKET BACK ON-CHAIN.
           </p>
           <div className="flex justify-center">
             <a
-              href="https://pump.fun/coin/CuGJf6cfDfMh4UxVgNJ5KFQ6v8Wv3qrqop6cFKsGpump"
+              href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-12 py-5 bg-gradient-to-r from-[#0098ea] to-[#00f0ff] text-[#050505] font-black text-sm tracking-[0.25em] uppercase hover:brightness-110 active:scale-95 transition-all duration-300 shadow-[0_0_30px_rgba(0,240,255,0.45)] border border-[#00f0ff]/50 rounded-sm"
+              className="inline-flex items-center gap-2 px-12 py-5 bg-gradient-to-r from-[#8b5cf6] to-[#da83ff] text-[#050505] font-black text-sm tracking-[0.25em] uppercase hover:brightness-110 active:scale-95 transition-all duration-300 shadow-[0_0_30px_rgba(218,131,255,0.45)] border border-[#da83ff]/50 rounded-sm"
             >
-              <Zap className="w-4 h-4 fill-current shrink-0" /> BUY $DUROV NOW
+              <Zap className="w-4 h-4 fill-current shrink-0" /> BUY $VITALIK NOW
             </a>
           </div>
         </motion.div>
