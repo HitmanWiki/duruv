@@ -51,7 +51,7 @@ export default function Footer({ onCopyAddress }: FooterProps) {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://t.me/thetopbull"
+              href="http://t.me/thewhitebull_vitalik"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-[#da83ff]/50 text-xs tracking-[0.2em] uppercase hover:text-[#da83ff] transition-colors flex items-center gap-1.5"
@@ -59,7 +59,7 @@ export default function Footer({ onCopyAddress }: FooterProps) {
               TELEGRAM
             </a>
             <a
-              href="https://x.com/TheTopBull_tate"
+              href="https://x.com/VITALIK_CTO"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-[#da83ff]/50 text-xs tracking-[0.2em] uppercase hover:text-[#da83ff] transition-colors"

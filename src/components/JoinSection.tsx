@@ -51,7 +51,7 @@ export default function JoinSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-2xl mx-auto"
         >
           <a
-            href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
+            href="https://app.uniswap.org/explore/tokens/ethereum/0xf2da4643B573042ce685BAa36a855A8812e5CF31"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto flex-1 px-8 py-4 bg-[#8b5cf6] text-[#050505] font-black text-sm tracking-[0.15em] uppercase hover:bg-[#da83ff] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm border border-[#da83ff]/40 shadow-[0_0_15px_rgba(218,131,255,0.15)]"
@@ -59,7 +59,7 @@ export default function JoinSection() {
             <Flame className="w-4 h-4 shrink-0" /> BUY $VITALIK
           </a>
           <a
-            href="https://t.me/thetopbull"
+            href="http://t.me/thewhitebull_vitalik"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto flex-1 px-8 py-4 border-2 border-[#da83ff]/40 text-[#da83ff] font-bold text-sm tracking-[0.15em] uppercase hover:bg-[#da83ff]/10 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm"
@@ -67,7 +67,7 @@ export default function JoinSection() {
             <Send className="w-4 h-4 shrink-0" /> TELEGRAM
           </a>
           <a
-            href="https://x.com/TheTopBull_tate"
+            href="https://x.com/VITALIK_CTO"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto flex-1 px-8 py-4 border-2 border-[#da83ff]/40 text-[#da83ff] font-bold text-sm tracking-[0.15em] uppercase hover:bg-[#da83ff]/10 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2 rounded-sm"

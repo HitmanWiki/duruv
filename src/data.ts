@@ -18,7 +18,7 @@ export interface ReasonItem {
   highlighted?: boolean;
 }
 
-export const CONTRACT_ADDRESS = "0xb06833Dd843c7be2CD64F7831723AA787c89B596";
+export const CONTRACT_ADDRESS = "0xf2da4643B573042ce685BAa36a855A8812e5CF31";
 
 export const MISSION_CARDS: MissionCard[] = [
   {

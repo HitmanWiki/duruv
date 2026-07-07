@@ -72,7 +72,7 @@ export default function Header() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
+              href="https://app.uniswap.org/explore/tokens/ethereum/0xf2da4643B573042ce685BAa36a855A8812e5CF31"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex px-6 py-2.5 bg-[#8b5cf6] text-[#050505] font-black text-xs md:text-sm tracking-widest hover:bg-[#da83ff] hover:text-[#050505] active:scale-95 transition-all duration-300 h-10 md:h-11 items-center gap-1.5 shadow-[0_0_15px_rgba(218,131,255,0.2)] border border-[#da83ff]/40 rounded-sm"
@@ -80,7 +80,7 @@ export default function Header() {
               BUY $VITALIK <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
-              href="https://t.me/thetopbull"
+              href="http://t.me/thewhitebull_vitalik"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2.5 border border-[#da83ff]/30 text-[#da83ff] font-bold text-xs md:text-sm tracking-wider hover:bg-[#da83ff]/10 hover:border-[#da83ff] transition-all duration-300 h-10 md:h-11 flex items-center rounded-sm"
@@ -88,7 +88,7 @@ export default function Header() {
               TELEGRAM
             </a>
             <a
-              href="https://x.com/TheTopBull_tate"
+              href="https://x.com/VITALIK_CTO"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2.5 border border-[#da83ff]/30 text-[#da83ff] font-bold text-xs md:text-sm tracking-wider hover:bg-[#da83ff]/10 hover:border-[#da83ff] transition-all duration-300 h-10 md:h-11 flex items-center rounded-sm hidden xs:flex"
@@ -139,7 +139,7 @@ export default function Header() {
             CONVICTION
           </a>
           <a
-            href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
+            href="https://app.uniswap.org/explore/tokens/ethereum/0xf2da4643B573042ce685BAa36a855A8812e5CF31"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 px-10 py-4 bg-[#8b5cf6] text-[#050505] font-black text-sm tracking-widest hover:bg-[#da83ff] active:scale-95 transition-all duration-300 rounded-sm"

@@ -55,7 +55,7 @@ export default function SovereignSection() {
             transition={{ duration: 1, delay: 0.8 }}
           >
             <a
-              href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
+              href="https://app.uniswap.org/explore/tokens/ethereum/0xf2da4643B573042ce685BAa36a855A8812e5CF31"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-10 md:px-12 py-4 bg-[#8b5cf6] hover:bg-[#da83ff] text-[#050505] font-black text-sm tracking-[0.2em] uppercase active:scale-95 transition-all duration-200 w-full sm:w-auto justify-center rounded-sm border border-[#da83ff]/40 shadow-[0_0_15px_rgba(218,131,255,0.15)]"
