@@ -80,7 +80,7 @@ export default function FinalWordSection() {
           </p>
           <div className="flex justify-center">
             <a
-              href="https://dexscreener.com/ethereum/0xb06833Dd843c7be2CD64F7831723AA787c89B596"
+              href="https://app.uniswap.org/explore/tokens/ethereum/0xf2da4643B573042ce685BAa36a855A8812e5CF31"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-12 py-5 bg-gradient-to-r from-[#8b5cf6] to-[#da83ff] text-[#050505] font-black text-sm tracking-[0.25em] uppercase hover:brightness-110 active:scale-95 transition-all duration-300 shadow-[0_0_30px_rgba(218,131,255,0.45)] border border-[#da83ff]/50 rounded-sm"
